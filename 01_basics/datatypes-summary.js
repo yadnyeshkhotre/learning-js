@@ -16,34 +16,42 @@ JavaScript is a dynamically typed language
 
 
 //symbols
-const id=Symbol('124')
-const anotherId=Symbol('124')
+// const id=Symbol('124')
+// const anotherId=Symbol('124')
 
-console.log(id===anotherId)
+// console.log(id===anotherId)
 
-//BitInt
-const bigNumber=234374757483447448378373838n
-console.log(typeof bigNumber)
+// //BitInt
+// const bigNumber=234374757483447448378373838n
+// console.log(typeof bigNumber)
 
-//array
-let arr=["mange","banana","tomato"]
-console.log(typeof arr); // Outputs: 'object'
-console.log(Array.isArray(arr)); // Outputs: true
+// //array
+// let arr=["mange","banana","tomato"]
+// console.log(typeof arr); // Outputs: 'object'
+// console.log(Array.isArray(arr)); // Outputs: true
 
 
-//object
-let myObj={
-    name:"yadnyesh",
-    age:22,
-    city:"Banglore"
-}
+// //object
+// let myObj={
+//     name:"yadnyesh",
+//     age:22,
+//     city:"Banglore"
+// }
 
-console.log(typeof myObj)
+// console.log(typeof myObj)
 
-//function
-myname="yadnyesh"
-const myFun=function(name){
-    console.log("hello "+name)
-}
-myFun(myname)
-console.log(typeof myFun)
+// //function
+// myname="yadnyesh"
+// const myFun=function(name){
+//     console.log("hello "+name)
+// }
+// myFun(myname)
+// console.log(typeof myFun)
+
+
+//******************************************************************************************** *//
+
+//Stack(Primitive), Heap(Non-Primitive)
+let myYoutubeName="yadnyeshkhotre.com"
+let anothername=myYoutubeName
+console.log(anothername);
