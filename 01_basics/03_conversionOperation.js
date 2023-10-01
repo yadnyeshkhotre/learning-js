@@ -1,10 +1,10 @@
-let score=undefined
+// let score=undefined
 
-let valueNumber=score
+// let valueNumber=score
 
-console.log(typeof valueNumber);
+// console.log(typeof valueNumber);
 
-console.log(valueNumber);
+// console.log(valueNumber);
 
 /*
 
@@ -73,4 +73,6 @@ true=>1;  false=>0
 // let a = 3;
 // const b = ++a;
 // console.log(`a=${a}, b=${b}`);
+
+
 

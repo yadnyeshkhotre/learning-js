@@ -8,9 +8,9 @@ console.log(3
     )//code readability shoud be there
 
 
-let name="yadnyesh"
-let age=22
-let isLoggedIn=false
+// let name="yadnyesh"
+// let age=22
+// let isLoggedIn=false
 
 //primitive
 //number=>2 to the power 52
@@ -22,5 +22,5 @@ let isLoggedIn=false
 //symbol=>unique
 
 //object
-console.log(typeof undefined)//undefined
-console.log(typeof(null)) //object
+// console.log(typeof undefined)//undefined
+// console.log(typeof(null)) //object
