@@ -26,7 +26,7 @@ JavaScript is a dynamically typed language
 // console.log(typeof bigNumber)
 
 // //array
-// let arr=["mange","banana","tomato"]
+// let arr=["mango","banana","tomato"]
 // console.log(typeof arr); // Outputs: 'object'
 // console.log(Array.isArray(arr)); // Outputs: true
 
@@ -50,8 +50,50 @@ JavaScript is a dynamically typed language
 
 
 //******************************************************************************************** *//
+//Memory (Stack and Heap)
 
 //Stack(Primitive), Heap(Non-Primitive)
-let myYoutubeName="yadnyeshkhotre.com"
-let anothername=myYoutubeName
-console.log(anothername);
+// let myChildhoodName="yadu"
+// let originalName="yadnyesh"
+
+// // console.log(myChildhoodName)
+// // console.log(originalName)
+
+// originalName=myChildhoodName
+// // console.log(originalName)
+// // console.log(myChildhoodName);
+
+// let carCollection={
+//     Mahendra:["xuv700","scorpio"],
+//     Tata:["hariar","safari"]
+// }
+
+// let newCarCollection=carCollection
+
+// // console.log(carCollection.Tata[1])
+// // console.log(newCarCollection.Tata[1])
+
+// newCarCollection.Tata[1]="Neon"
+// console.log(newCarCollection.Tata[1])
+// console.log(carCollection.Tata[1])
+
+//  let myName="yadnyesh"
+//  console.log(myName.charAt(3))
+//  console.log(myName.indexOf('z'))
+//  console.log(myName.substring(3,5))//make a note that we cannot pass negative index in substring arguments
+//  console.log(myName.slice(-4,4))
+
+// const newString="    yadnyesh     "
+// const cleanString=newString.trim()
+// console.log(cleanString)
+// console.log(newString)
+
+
+// const url="https://yadnyesh.com/hitesh choudhary"
+// console.log(url.replace(" ","_"))
+// console.log(url.includes("yadnyesh"))
+
+let myFullName="Yadnyesh Devidas Khotre"
+console.log(myFullName.split(" "))
+const myFullNameArr=myFullName.split(" ")
+console.log(myFullName)
