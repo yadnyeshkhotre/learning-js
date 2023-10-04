@@ -1,36 +1,44 @@
-// let score=undefined
+//conversion from string to number
+let num1=5;
+let num1String=Number(num1)
+console.log(typeof (num1String))//this will give us the output as number datatype
 
-// let valueNumber=score
 
-// console.log(typeof valueNumber);
+let score="33abc"
+let scoreInNumber=Number(score)
+console.log(typeof(scoreInNumber)) //this will successfully get converted into number
+console.log(scoreInNumber)  //NaN
+//so we can se that there are some problems with javascript thats why people prefer to use typescript as it is more secure.
 
-// console.log(valueNumber);
 
-/*
+//In case of null when we try to convert it into number then what is the datatype and value?
+let nullVariable=null
+let convertedNullVariable=Number(nullVariable)
+console.log(typeof convertedNullVariable)
+console.log(convertedNullVariable);
+//Initilizing any variable (nullVariable in our case) with null in our case hold the value as null only and its datatype will be an object.(this is quite surprizing bucause the datatype should be null only but this behaviour is from starting.When you use typeof null, it returns 'object', but it's important to understand that null is not actually an object. This is considered a mistake or an inconsistency in the language. The ECMAScript specification, which defines JavaScript, mentions that the result of typeof null is 'object' due to a historical bug.)
+//Note the point that when we convert the null variable(nullVariable), then after conversion into a number, the new variable(convertedNullVariable) will hold the value as 0 and its datatype will be changed to number.
 
-"33"=>33
-"33abc"=>Nan (type when converted to number is number)
-true=>1;  false=>0
 
-*/
+//In case of undefined when we try to convert it into a number then what is the datatype and value?
+let undefinedVariable=undefined
+let convertedUndefinedVariable=Number(undefined)
+console.log(typeof convertedUndefinedVariable)
+console.log(convertedUndefinedVariable)
+//So, in case of undefined initially when we define any variable with undefined (undefinedVariable), it holds the value as undefined only and its datatype is not an object but undefined only. And after converion into number its datatype becomes number and it holds the value as NaN
 
-// let isLoggedIn=  "wwww"
 
-// let booleanIsLoggedIn=Boolean(isLoggedIn)
+//converion from number  or string to boolean 
+//1. Number conversion
+let num=10
+let convertedNumToBoolean=Boolean(num)
+console.log(convertedNumToBoolean) // here we can conclude that may it be any number else than 0, it will be converted into true value after the conversion frm number to boolean.
+//2. String conversion
+let str=""
+let convertedStrToBoolean=Boolean(str)
+console.log(convertedStrToBoolean)// here if the string is empty and we try to convert it into boolean it will give me false value and if the string holds some value it wil return as true.
 
-// console.log(booleanIsLoggedIn)
 
-/*
-
-1=>true 0=>false
-""=>false
-"yadnyesh"=>true
-
-*/
-
-// let string="iAmAString"
-// let stringNumber=String(string)
-// console.log(typeof(stringNumber))
 
 // ********************************Operations*************************************
 
