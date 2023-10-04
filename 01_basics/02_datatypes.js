@@ -8,19 +8,19 @@ console.log(3
     )//code readability shoud be there
 
 
-// let name="yadnyesh"
-// let age=22
-// let isLoggedIn=false
+let name="yadnyesh"
+let age=22
+let isLoggedIn=false
 
 //primitive
-//number=>2 to the power 52
-//bigint
-//boolean=>true false
-//string=""
-//null=standalone value
-//undefined=>
-//symbol=>unique
+// number=>2 to the power 52
+// bigint
+// boolean=>true false
+// string=""
+// null=standalone value
+// undefined=>
+// symbol=>unique
 
 //object
-// console.log(typeof undefined)//undefined
-// console.log(typeof(null)) //object
+console.log(typeof undefined)//undefined
+console.log(typeof(null)) //object
