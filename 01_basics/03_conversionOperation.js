@@ -41,46 +41,51 @@ console.log(convertedStrToBoolean)// here if the string is empty and we try to c
 
 
 // ********************************Operations*************************************
-
-// let value=3
-// let negValue=-value
-// console.log(negValue);
-
-// console.log(2+2)
-// console.log(2-2)
-// console.log(2*2)
-// console.log(2**2)
-// console.log(2/3)
-// console.log(2%3)
+//negative value conversion
+let value=-3
+let negValue=-value
+console.log(negValue);
 
 
-// let str1="hello"
-// let str2='yadnyesh'
+//arithmatic operation
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**2)//power
+console.log(2/3)
+console.log(2%3)//reminder(very useful)
 
-// let str3=str1+str2
-// console.log(str3)
 
-// console.log(1+"2"+1)
-// console.log(+true)
-// console.log(+"")
+//string concatenation
+let str1="hello"
+let str2=" yadnyesh"
+let str3=str1+str2
+console.log(str3)
 
-// let num1,num2,num3
-// num1=num2=num3=2+2
-// console.table([num1,num2,num3])
+console.log(1+"2"+1)//output=121
+console.log(2+2+"2")//output=42
 
-// let gameCounter=100
-// gameCounter++//101
-// ++gameCounter//101
-// console.log(gameCounter)
+
+//tricky output
+console.log(true)//output=true
+console.log(+true)//output=1
+// console.log(true+)//output=error
+console.log(+"")//output=0
+
+//not very useful in corporate companies
+let num3,num4,num5
+num3=num4=num5=2+2
+console.table([num3,num4,num5])
+
 
 //prefix and postfix
-// let x = 3;
-// const y = x++;
-// console.log(`x=${x}, y=${y}`);
+let x = 3;
+const y = x++;
+console.log(`x=${x}, y=${y}`);
 
-// let a = 3;
-// const b = ++a;
-// console.log(`a=${a}, b=${b}`);
+let a = 3;
+const b = ++a;
+console.log(`a=${a}, b=${b}`);
 
 
 
