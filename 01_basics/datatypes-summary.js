@@ -53,6 +53,7 @@ JavaScript is a dynamically typed language
 //Memory (Stack and Heap)
 
 //Stack(Primitive), Heap(Non-Primitive)
+//copy            , reference
 // let myChildhoodName="yadu"
 // let originalName="yadnyesh"
 
