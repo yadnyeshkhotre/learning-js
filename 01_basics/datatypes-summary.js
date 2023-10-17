@@ -53,6 +53,7 @@ let myObj={
 //Memory (Stack and Heap)
 
 //Stack(Primitive), Heap(Non-Primitive)
+//copy            , reference
 // let myChildhoodName="yadu"
 // let originalName="yadnyesh"
 

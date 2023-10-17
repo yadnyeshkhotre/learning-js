@@ -1,4 +1,6 @@
 // javascript allow different datatype variable comparision where as in case of typescript it strictly prohibits comparision between different datatypes variable.
+
+
 let strNum = "2"
 let num = 1
 console.log(strNum > num)//here js automatically converts or detects strNum as a number.
