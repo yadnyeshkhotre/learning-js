@@ -25,11 +25,21 @@ const myObj={
 
 // console.log(myObj["full name"])
 // console.log(myObj.isMarried)
+let anySymbol=Symbol("firstSymbol")
 
+let anyObject={
+    myName:"yadnyesh",
+    [anySymbol]:"Symbol",
+    IAmFunction:function(){
+        console.log("hello i am a function my name is not mention")
 
-
-
-
+    },
+    IAmAnotherFunction:function add(){
+        console.log(5+5)
+    }
+}
+// console.log(anyObject)
+// console.log(anyObject.IAmAnotherFunction())
 //Interview question: define symbol in obj and print it.
 // let sym=Symbol("yadnyesh_ka_Symbol")
 // const myObj2={
@@ -46,8 +56,8 @@ const obj = { [syma]: "yadnyesh" };
 // console.log(typeof obj[syma]); // still 1
 
 
-
-//how to change the values of obj
+ 
+// how to change the values of obj
 const newObj={
     class:5,
     sub:"science",
@@ -74,3 +84,4 @@ newObj.greetingtwo=function(){
 }
 
 console.log(newObj.greetingtwo())
+

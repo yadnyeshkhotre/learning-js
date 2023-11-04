@@ -17,6 +17,8 @@ const obj = {
     }
 }
 // console.log(obj.name["firstName"])
+ 
+
 
 //combining two objects using spread operator
 const obj1 = { 1: "one", 2: "two" }
@@ -29,9 +31,9 @@ const obj12 = { 1: "one", 2: "two" }
 const obj13 = { 3: "three", 4: "four" }
 
 const obj14 = Object.assign( obj12, obj13);
-console.log(obj14);
-console.log(obj12);
-console.log(obj14 === obj12);
+// console.log(obj14);
+// console.log(obj12);
+// console.log(obj14 === obj12);
 
 //how to access the keys of an object.
 //while accessing the keys of an object by Object.keys(), it returns an array of all the keys of the object
@@ -41,7 +43,7 @@ const newObject = {
     age:21
 }
 keysArray = Object.keys(newObject);
-console.log(keysArray);
+// console.log(keysArray);
 //similarly we can access the values also by Object.values(), and Object.entries()
 
 
@@ -77,6 +79,47 @@ const arrayObject = [
     age:21
 }
 ]
-console.log(arrayObject[1].myName)
+// console.log(arrayObject[1].myName)
 
-console.log(arrayObject[1].hasOwnProperty("myFullName"))
+// console.log(arrayObject[1].hasOwnProperty("myFullName"))
+
+const newObj2={
+    ml:{
+        dl:{
+            cnn:"convolutional neural network"
+        }
+    }
+}
+
+console.log(newObj2.ml.dl.cnn);
+
+const obj4={...newObj2}
+// console.log(obj4)
+
+const obj5=Object.assign({},newObj2,arrayObject)
+// console.log(obj5)
+
+
+
+
+const anObj={
+    aim:"teaching",
+    game:"gyming",
+    main:"family",
+    isMarried:true
+}
+
+console.log(anObj.hasOwnProperty('isMarried'))
+
+//Object destructuring
+const newObj={
+    myName: "yadnyesh",
+    address:"sector 12",
+    class:"1st year",
+    status:undefined
+
+}
+
+const {myName:name}=newObj
+const {class:year}=newObj
+console.log(year)
