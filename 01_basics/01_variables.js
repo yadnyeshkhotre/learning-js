@@ -16,3 +16,4 @@ console.table([accountId,accountMail,name,accountCity,notDefinining])
 Prefer not to use var
 because of issue in block scope and functional scope
 */
+let myName='yadnyesh'
