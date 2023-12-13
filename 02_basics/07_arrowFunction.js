@@ -1,72 +1,97 @@
-// let family={
-//     father:"Pappa",
-//     familyHead:"mother",
-//     totalEarnings:30000,
-//     earnings:function(){
-//         console.log(`${this.totalEarnings}, is the total earning`)
+//arrowFunctions
+//this
+//functions:
+// function greetings(name) {
+//     return "Hey "+ name+ " Good Morning";
+// }
+// console.log(greetings("yadnyesh"))
+
+//arrow function
+// const newFunction=(name) =>{
+//     console.log(name)
+// }
+
+// newFunction("yadneysh");
+
+// const addition = (a,b) => {
+//     return a + b;
+// }
+
+// const sum = addition(10, 20);
+// console.log(sum);
+
+//one argument:
+// const bookCounter = bookPrice =>  bookPrice + 7
+
+// const newBookPRice = bookCounter(350);
+
+// console.log(newBookPRice)
+
+//arrow function:
+// const arrFun = (favLang,favCar) => {
+//     const name = "yadnyesh";
+//     const dob = [17, 9, 2001]
+//     console.log(name, dob);
+//     console.log(favLang)
+//     console.log(favCar[2])
+//     return name;
+    
+// }
+
+// arrFun("javascript",['range rover','wagenor','verna']);
+
+// ***********************************************************************************
+//this keyword
+// const person = {
+//     firstName: 'karan',
+//     lastName: 'rananaware',
+//     id: 120,
+//     fullName: function () {
+//         return this.firstName + " " + this.lastName;
+//     }
+// }
+
+// console.log(person.fullName())
+
+// const bookStore = {
+//     noOfBooks: 10000,
+//     address: "sector 12",
+//     employees: 12,
+//     bookNames: ['Hellen keller', "Never I have Ever", "MoneyPower"],
+//     callBook: function () {
 //         console.log(this)
-//     },
+//     }
+    
 // }
 
-// // console.log(family)
-// // family.earnings()
+// bookStore.callBook();
 
-// // console.log(this)
+// console.log(this)
 
-
-// //this in function
-// function coffee(){
-//     let randomVar=55
-//     console.log(this.randomVar)
-//     console.log(this)
-// }
-// coffee()
-
-// //arrow function
-// const milk =()=>{
-//     let randomVar=55
-//     console.log(this.randomVar)
-//     console.log(this)
-// }
-// milk()
-
-// //In both the cases may it be arrow fun or normal fun we cannot use this keyword to access the values, in normal fun with the help of this we can see lot many methods of it
-
-
-// // const multiply=(a,b)=>{
-// //     return a*b
-// // }
-// // console.log(multiply(11,11))
-
-
-// const multiply=(a,b)=> ( a*b)
-// console.log(multiply(11,11))
-
-// //how to return object with arrow function
-// const obj={
-//     name:"yadnyesh",
-//      rollNo:36
+// const newFun=()=> {
+//     const name="yadnyesh"
+    
 // }
 
-// let fun=()=>obj.name
-// console.log(fun())
+// newFun();
+// "use strict"
+// function myFun() {
+//     return this
+// }
 
-// const fun2=()=>({
-//     myName:"yadnyesh",
-//     mummyName:"jayshri"
-// })
+// myFun()
 
-// console.log(fun2())
-
-
+// let x = this;
 
 
-//IIFE ...global scope ke pollution se problem ho rahi thi issiliye humne IIFE use kiya (Immediately Invoked Function Expressions)
-(function addTwoNum(a,b){
-    console.log(`the addition of ${a} and ${b} is ${a+b} `);
-})(5,5);
+//IIFE
+// Immediately Invoked Function Expression
+
+(() => { 
+    console.log("Welcome to the js series");
+})();
 
 
-((name)=>{
-    console.log(`go to sleep ${name}`)
-})("yadnyesh")
+// function Greet() {
+//     console.log("Welcome to the js series");
+// }()
